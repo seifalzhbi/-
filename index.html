@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سيف الذهبي - معرض الصور</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h1>سيف الذهبي</h1>
+    <p>معرض أعمالي الفنية</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">الرئيسية</a></li>
+      <li><a href="#gallery">معرض الصور</a></li>
+      <li><a href="#about">عن الفنان</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="gallery">
+      <h2>معرض الصور</h2>
+      <div class="gallery">
+        <img src="img1.jpg" alt="صورة 1" />
+        <img src="img2.jpg" alt="صورة 2" />
+        <img src="img3.jpg" alt="صورة 3" />
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>عن الفنان</h2>
+      <p>سيف الذهبي فنان تشكيلي ومصور فوتوغرافي، يتميز بأسلوبه الفريد في مزج الألوان والظلال. بدأ رحلته الفنية منذ عام 2010 وشارك في العديد من المعارض المحلية والدولية.</p>
+    </section>
+
+    <section id="contact">
+      <h2>تواصل معنا</h2>
+      <p>للتواصل مع الفنان سيف الذهبي، يمكنك استخدام زر الواتساب في أسفل الصفحة أو إرسال رسالة عبر البريد الإلكتروني: example@example.com</p>
+    </section>
+  </main>
+
+  <a href="https://wa.me/201224722049" class="whatsapp-btn" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; <span id="year"></span> - موقع سيف الذهبي</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
